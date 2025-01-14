@@ -1,4 +1,4 @@
-# Day 1
+# Plus Minus
 
 ## Content 📋
 - [Description 📃](#description-)
@@ -8,11 +8,11 @@
 ## Description 📃
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
 
-**Note:** This challenge introduces precision problems. The test cases are scaled to six decimal places, though answers with absolute error of up to $ 10^{-4} $ are acceptable.
+**Note:** This challenge introduces precision problems. The test cases are scaled to six decimal places, though answers with absolute error of up to $10^{-4}$ are acceptable.
 
 **Example**
 
-There are $ n = 5  $  elements, two positive, two negative and one zero. Their ratios are $ \frac{2}{5} = 0.400000 $, $ \frac{2}{5} = 0.400000 $ and $ \frac{1}{5} = 0.200000 $. Results are printed as:
+There are $n = 5$ elements, two positive, two negative and one zero. Their ratios are $\frac{2}{5} = 0.400000$, $\frac{2}{5} = 0.400000$ and $\frac{1}{5} = 0.200000$. Results are printed as:
 
 ```bash
 0.400000
@@ -34,18 +34,17 @@ Print the ratios of positive, negative and zero values in the array. Each value 
 **Input Format**
 
 The first line contains an integer, , the size of the array.
-The second line contains  space-separated integers that describe $ arr[n] $.
+The second line contains  space-separated integers that describe $arr[n]$.
 
 **Constraints**
 
-$$
-\\ 0 < n \leq 100
-\\ -100 \leq arr[i] \leq 100
-$$
+$0 < n \leq 100$
+
+$-100 \leq arr[i] \leq 100$
 
 **Output Format**
 
-**Print** the following $ 3 $ lines, each to $ 6 $ decimals:
+**Print** the following $3$ lines, each to $6$ decimals:
 
 1. proportion of positive values
 2. proportion of negative values
@@ -70,9 +69,9 @@ STDIN           Function
 
 **Explanation**
 
-There are $ 3 $ positive numbers, $ 2 $ negative numbers, and $ 1 $ zero in the array.
+There are $3$ positive numbers, $2$ negative numbers, and $1$ zero in the array.
 
-The proportions of occurrence are positive: $ \frac{3}{6} = 0.500000 $, negative: $ \frac{2}{6} = 0.333333 $ and zeros: $ \frac{1}{6} = 0.166667 $.
+The proportions of occurrence are positive: $\frac{3}{6} = 0.500000$, negative: $\frac{2}{6} = 0.333333$ and zeros: $\frac{1}{6} = 0.166667$.
 
 ## Solution ✅
 You can view the full implementation of the solution in [PlusMinus.java](PlusMinus.java) file.

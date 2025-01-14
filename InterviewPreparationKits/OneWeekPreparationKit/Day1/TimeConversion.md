@@ -6,7 +6,7 @@
 - [HackerRank link 🔗](#hackerrank-link-)
 
 ## Description 📃
-Given a time in $ 12 $[-hour AM/PM format](https://en.wikipedia.org/wiki/12-hour_clock), convert it to military (24-hour) time.
+Given a time in $12$[-hour AM/PM format](https://en.wikipedia.org/wiki/12-hour_clock), convert it to military (24-hour) time.
 
 Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock. 
 
@@ -14,11 +14,11 @@ Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.
 
 **Example**
 
-- $ s = 12:01:00PM $
+- $s = 12:01:00PM$
 
     Return '12:01:00'.
 
-- $ s = 12:01:00AM $
+- $s = 12:01:00AM$
 
     Return '00:01:00'.
 
@@ -28,15 +28,15 @@ Complete the timeConversion function in the editor below. It should return a new
 
 timeConversion has the following parameter(s):
 
-- string s: a time in $ 12 $ hour format
+- string s: a time in $12$ hour format
 
 **Returns**
 
-- string: the time in $ 24 $  hour format
+- string: the time in $24$  hour format
 
 **Input Format**
 
-A single string  that represents a time in $ 12 $-hour clock format (i.e.: **hh:mm:ss**$ AM $ or **hh:mm:ss**$ PM $).
+A single string  that represents a time in $12$-hour clock format (i.e.: **hh:mm:ss**$AM$ or **hh:mm:ss**$PM$).
 
 **Constraints**
 
