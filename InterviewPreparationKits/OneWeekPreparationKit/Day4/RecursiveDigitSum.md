@@ -1,4 +1,4 @@
-# RecursiveDigitSum
+# Recursive Digit Sum
 
 ## Content 📋
 - [Description 📃](#description-)
