@@ -8,5 +8,5 @@
 2. **[RecursiveDigitSum](RecursiveDigitSum.md)**  
    Given an integer, we need to find the super digit of the integer.
 
-3. **[Third](Third.md)**  
-   Desc
+3. **[NewYearChaos](NewYearChaos.md)**  
+   Determine the minimum number of bribes that took place to get to a given queue order. Print the number of bribes, or, if anyone has bribed more than two people, print **Too chaotic**.
