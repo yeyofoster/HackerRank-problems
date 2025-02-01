@@ -10,3 +10,6 @@
 
 3. **[NewYearChaos](NewYearChaos.md)**  
    Determine the minimum number of bribes that took place to get to a given queue order. Print the number of bribes, or, if anyone has bribed more than two people, print **Too chaotic**.
+
+4. **[TruckTour](TruckTour.png)**  
+   Mock Interview problem.
