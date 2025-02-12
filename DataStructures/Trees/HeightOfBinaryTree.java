@@ -1,5 +1,7 @@
 package DataStructures.Trees;
 
+import DataStructures.Trees.Common.Node;
+
 public class HeightOfBinaryTree {
 
     /*
@@ -30,15 +32,5 @@ public class HeightOfBinaryTree {
         int rightHeight = height(root.right);
 
         return 1 + Math.max(leftHeight, rightHeight);
-    }
-
-    public static class Node {
-        int data;
-        Node left;
-        Node right;
-
-        public Node(int data) {
-            this.data = data;
-        }
     }
 }
