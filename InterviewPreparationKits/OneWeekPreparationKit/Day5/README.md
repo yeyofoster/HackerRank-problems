@@ -11,5 +11,5 @@
 3. **[BalancedBrackets](BalancedBrackets.md)**  
    Given $n$ strings of brackets, determine whether each sequence of brackets is balanced. If a string is balanced, return YES. Otherwise, return NO.
 
-4. **[Mock Interview](MockInterview.png)**  
+4. **[Pairs](Pairs.png)**  
    Mock Interview problem.
